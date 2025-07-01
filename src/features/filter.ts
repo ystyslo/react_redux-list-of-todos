@@ -8,7 +8,7 @@ export interface FilterState {
 
 const initialState: FilterState = {
   query: '',
-  status: Filters.all,
+  status: Filters.All,
 };
 
 export const filterSlice = createSlice({

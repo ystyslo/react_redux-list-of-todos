@@ -13,5 +13,5 @@ export const currentTodoSlice = createSlice({
   },
 });
 
-export default currentTodoSlice.reducer;
+export default currentTodoSlice;
 export const { setCurrentTodo } = currentTodoSlice.actions;
